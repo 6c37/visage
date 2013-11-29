@@ -10,10 +10,7 @@ hr {
     padding-top: 5px !important;
     border-width: 0px !important;
 }
-/* Display board banner? */
-.boardBanner {
-    display: none !important;
-}
+
 
 /* Links */
 a {
@@ -40,10 +37,13 @@ a {
 }
 
 /* Appearance of the menus */
-.dialog {
+#menu.dialog,
+.entry {
     background: #2f2f2f !important;
     border-width: 0px !important;
-    color: #dedede !important;
+    color: #ccc !important;
+    font-family: 'lemon', sans-serif !important;
+    font-size: 9px !important;
 }
 
 /* Catalog search and page links, This is not ready. */
@@ -83,6 +83,17 @@ div.pagelist {
     display: none !important;
 }
 
+/* Hide ads? */ 
+div.topad.center,
+div.middlead.center,
+div.bottomad.center,
+div.ad-plea {
+    display: none !important;
+}
+/* Display board banner? */
+.boardBanner {
+    display: none !important;
+}
 
 
 /* Relative to posts. */
@@ -92,7 +103,6 @@ div.pagelist {
     background: #fbfbfb !important;
     color: #1b1b1b !important;
     width: 100% !important;
-    overflow: hidden !important;
     border: none !important;
     border-width: 0px !important;
     padding: 6px !important;
@@ -104,101 +114,72 @@ div.pagelist {
 }
 
 
-/* Everything should be self-explanatory. */
+/* Post subjects */
 span.subject {
     color: #596196 !important;
 }
-
+/* Tripcodes */
 span.postertrip {
     color: #6673bf !important;
 }
-
+/* Post numbers */
 span.postNum a {
     color: #a5a5a5 !important;
 }
-
+/* Poster's name */
 span.name {
     color: #3d3d3d !important;
     font-weight: normal !important;
 }
-
+/* Date and time of the posts */
 span.dateTime {
     color: #6f6f6f !important;
 }
-
+/* Quotes */
 a.quotelink {
     color: #909bda !important;
 }
-
+/* Link to posts quoting the current post */
 a.backlink {
     color: #3f3f3f !important;
 }
-
+/* Greentext */
 span.quote {
     color: #3ea290 !important;
 }
-
+/* Hide "hide reply" buttons. */
 .postInfo > input,
 a.hide-reply-button > span {
     display: none !important;
 }
-
-
-/* Relative to post info, i.e. filename, file size, resolution, etc. */
-span.fnfull {
-    font-family: 'lemon', sans-serif !important;
-}
-
-.postInfo a { 
+ 
+/* Relative to post info, i.e. Post name, tripcode, post date, etc. */
+.postInfo a,
+div.postInfo {
     color: #6f6f6f !important;
+    font-size: 12px !important;
 }
-
 div.fileInfo {
     font-family: 'lemon', sans-serif !important;
     font-size: 9px !important;
 }
 
-div.postInfo {
-    font-size: 12px !important;
+/* Relative to file info, i.e. filename, file size, resolution, etc. */
+span.fnfull {
+    font-family: 'lemon', sans-serif !important;
 }
 
 
 
 /* Relative to the quick reply */
 #qr {
+    background: #2f2f2f !important;
+    color: #eee !important;
+    border: none !important;
     border-radius: 2px !important;
     box-shadow: none !important;
     transition: all 0.2s ease 0s;
 }
-
-#qr.dialog.has-captcha.autohide,
-#qr.dialog.autohide {
-    top: -300px !important;
-    height: 21px !important;
-    transition: all 0.7s ease 0s;
-}
-
-#qr.dialog.has-captcha,
-#qr.dialog.has-captcha-has-focus {
-    background: #2f2f2f !important;
-    color: #eee !important;
-}
-
-/* Movable QR? */
-#qr span.move {
-    display: none !important;
-}
-
-/* Remove menu on QR  */
-#qr select {
-    display: none !important;
-}
-
-
-#qr > div {
-    position: fixed !important;
-}
-/* QR's appearance. */
 #qr form {
     bottom: 12px !important;
     right: 0% !important;
@@ -211,28 +192,53 @@ div.postInfo {
     border-color: #2f2f2f !important;
     border-radius: 4px !important;
 }
+#dump-button {
+    background: #3d3d3d !important;
+    border-color: #3d3d3d !important;
+    color: #eee !important;
+}
 
-/* Make the name field become invisible when there's something on it. */
-input.field:nth-child(2) {
+/* Color of the fields*/
+#qr .field {
+	background: #fefefe !important;
+    border-color: #1b1b1b !important;
+    color: #2f2f2f !important;
+}
+
+/* QR animations. */
+#qr.dialog.has-captcha.autohide,
+#qr.dialog.autohide {
+    top: -300px !important;
+    height: 21px !important;
+    transition: all 0.7s ease 0s;
+}
+
+
+/* Movable QR? */
+#qr span.move {
+    display: none !important;
+}
+
+
+/* Remove menu */
+#qr select {
+    display: none !important;
+}
+
+
+/* Make the name field become invisible when there's something in it... */
+#qr input.field:nth-child(2) {
     background: #fefefe !important; 
     color: #fefefe !important;
 }
-
-input.field:nth-child(2):hover {
+/* ... And then make it visible again when you hover over it. */
+#qr input.field:nth-child(2):hover {
     background: #fefefe !important; 
     color: #1b1b1b !important;
 }
 
-#dump-button {
-    background: #3D3D3D !important;
-    border-color: #3d3d3d !important;
-    color: #eee !important;
-}
-/* Color of the fields*/
-.field {
-	background: #fefefe !important;
-    border-color: #1b1b1b !important;
-    color: #2f2f2f !important;
+#qr > div {
+    position: fixed !important;
 }
 
 
@@ -240,6 +246,8 @@ input.field:nth-child(2):hover {
 #fourchanx-settings.dialog,
 fieldset legend,
 a.tab-main.tab-selected {
+    font-family:  sans-serif !important;
+    font-size: 11px !important;
     background: #2f2f2f !important;
     color: #dedede !important;
 }
