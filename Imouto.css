@@ -4,7 +4,7 @@ body {
     background: #efefef !important;
     font-family: 'Open Sans', sans-serif !important;
     color: #1f1f1f !important;
-    padding-bottom: 50px !important;
+    margin: auto !important;
     font-size: 13px !important;
 }
 hr {
@@ -53,9 +53,10 @@ div.pagelist {
     background: transparent !important;
     font-family: 'lemon', sans-serif !important;
     font-size: 0.750rem !important;
-    border-width: 0px !important;
-    left: 50% !important;
-    margin-left: auto !important;
+    border-width: 0 !important;
+    display: inline-block !important;
+    margin-left: 38% !important;
+    margin-bottom: 0 !important;
 }
 
 /* Appearance of the thread updater and thread stats. */
@@ -108,11 +109,17 @@ div.ad-plea {
     border-width: 0px !important;
     padding: 6px !important;
 }
-
-#post-preview {
-    width: 100% !important;
-    overflow: hidden !important;
+.thread {
+    margin-top: -10px !important;
+    margin-right: 30px !important;
+    margin-left: 15px !important;
 }
+.opContainer{
+    width: 100% !important;
+    display: inline-block !important;
+    margin: auto !important;
+}
+
 
 
 /* Post subjects. */
@@ -253,4 +260,3 @@ a.tab-main.tab-selected {
     color: #dedede !important;
 }
 }
-
