@@ -5,6 +5,7 @@ body {
     font-family: 'Open Sans', sans-serif !important;
     color: #1f1f1f !important;
     padding-bottom: 50px !important;
+    font-size: 13px !important;
 }
 hr {
     padding-top: 5px !important;
@@ -36,14 +37,14 @@ a {
     color: #8292b2 !important;
 }
 
-/* Appearance of the menus */
+/* Appearance of the menus. */
 #menu.dialog,
 .entry {
     background: #2f2f2f !important;
     border-width: 0px !important;
     color: #ccc !important;
     font-family: 'lemon', sans-serif !important;
-    font-size: 9px !important;
+    font-size: 0.750rem !important;
 }
 
 /* Catalog search and page links, This is not ready. */
@@ -51,7 +52,7 @@ div.navLinks,
 div.pagelist {
     background: transparent !important;
     font-family: 'lemon', sans-serif !important;
-    font-size: 9px !important;
+    font-size: 0.750rem !important;
     border-width: 0px !important;
     left: 50% !important;
     margin-left: auto !important;
@@ -62,7 +63,7 @@ div.pagelist {
 #updater.dialog,
 #thread-stats.dialog {
     font-family: 'lemon', sans-serif !important;
-    font-size: 9px !important;
+    font-size: 0.750rem !important;
     background: transparent !important;
     color: #1b1b1b !important;
     border-style: none !important;
@@ -114,36 +115,36 @@ div.ad-plea {
 }
 
 
-/* Post subjects */
+/* Post subjects. */
 span.subject {
     color: #596196 !important;
 }
-/* Tripcodes */
+/* Tripcodes. */
 span.postertrip {
     color: #6673bf !important;
 }
-/* Post numbers */
+/* Post numbers. */
 span.postNum a {
     color: #a5a5a5 !important;
 }
-/* Poster's name */
+/* Poster's name. */
 span.name {
     color: #3d3d3d !important;
     font-weight: normal !important;
 }
-/* Date and time of the posts */
+/* Date and time of the posts. */
 span.dateTime {
     color: #6f6f6f !important;
 }
-/* Quotes */
+/* Quote links. */
 a.quotelink {
     color: #909bda !important;
 }
-/* Link to posts quoting the current post */
+/* Link to posts quoting the current post. */
 a.backlink {
     color: #3f3f3f !important;
 }
-/* Greentext */
+/* Greentext. */
 span.quote {
     color: #3ea290 !important;
 }
@@ -161,7 +162,7 @@ div.postInfo {
 }
 div.fileInfo {
     font-family: 'lemon', sans-serif !important;
-    font-size: 9px !important;
+    font-size: 0.750rem !important;
 }
 
 /* Relative to file info, i.e. filename, file size, resolution, etc. */
@@ -171,7 +172,7 @@ span.fnfull {
 
 
 
-/* Relative to the quick reply */
+/* Relative to the quick reply. */
 #qr {
     background: #2f2f2f !important;
     color: #eee !important;
@@ -198,7 +199,7 @@ span.fnfull {
     color: #eee !important;
 }
 
-/* Color of the fields*/
+/* Color of the fields. */
 #qr .field {
 	background: #fefefe !important;
     border-color: #1b1b1b !important;
@@ -216,13 +217,13 @@ span.fnfull {
 
 /* Movable QR? */
 #qr span.move {
-    display: none !important;
+/*    display: none !important; */
 }
 
 
 /* Remove menu */
 #qr select {
-    display: none !important;
+   display: none !important;
 }
 
 
@@ -236,7 +237,7 @@ span.fnfull {
     background: #fefefe !important; 
     color: #1b1b1b !important;
 }
-
+/* Remove bar above the fields. */
 #qr > div {
     position: fixed !important;
 }
@@ -252,3 +253,4 @@ a.tab-main.tab-selected {
     color: #dedede !important;
 }
 }
+
