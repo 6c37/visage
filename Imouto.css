@@ -12,11 +12,11 @@ hr {
     border-width: 0px !important;
 }
 
-
 /* Links */
 a {
     color: #6f6f6f !important;
 }
+
 /* Foreground of the header bar */
 #board-list,
 #custom-board-list {
@@ -85,18 +85,18 @@ div.pagelist {
     display: none !important;
 }
 
-/* Hide ads? */ 
+/* Hide ads? */
 div.topad.center,
 div.middlead.center,
 div.bottomad.center,
 div.ad-plea {
     display: none !important;
 }
+
 /* Display board banner? */
 .boardBanner {
     display: none !important;
 }
-
 
 /* Relative to posts. */
 .post.reply {
@@ -114,53 +114,59 @@ div.ad-plea {
     margin-right: 30px !important;
     margin-left: 15px !important;
 }
-.opContainer{
+.opContainer {
     width: 100% !important;
     display: inline-block !important;
     margin: auto !important;
 }
 
-
-
 /* Post subjects. */
 span.subject {
     color: #596196 !important;
 }
+
 /* Tripcodes. */
 span.postertrip {
     color: #6673bf !important;
 }
+
 /* Post numbers. */
 span.postNum a {
     color: #a5a5a5 !important;
 }
+
 /* Poster's name. */
 span.name {
     color: #3d3d3d !important;
     font-weight: normal !important;
 }
+
 /* Date and time of the posts. */
 span.dateTime {
     color: #6f6f6f !important;
 }
+
 /* Quote links. */
 a.quotelink {
     color: #909bda !important;
 }
+
 /* Link to posts quoting the current post. */
 a.backlink {
     color: #3f3f3f !important;
 }
+
 /* Greentext. */
 span.quote {
     color: #3ea290 !important;
 }
+
 /* Hide "hide reply" buttons. */
 .postInfo > input,
 a.hide-reply-button > span {
     display: none !important;
 }
- 
+
 /* Relative to post info, i.e. Post name, tripcode, post date, etc. */
 .postInfo a,
 div.postInfo {
@@ -176,8 +182,6 @@ div.fileInfo {
 span.fnfull {
     font-family: 'lemon', sans-serif !important;
 }
-
-
 
 /* Relative to the quick reply. */
 #qr {
@@ -208,7 +212,7 @@ span.fnfull {
 
 /* Color of the fields. */
 #qr .field {
-	background: #fefefe !important;
+    background: #fefefe !important;
     border-color: #1b1b1b !important;
     color: #2f2f2f !important;
 }
@@ -221,34 +225,32 @@ span.fnfull {
     transition: all 0.7s ease 0s;
 }
 
-
 /* Movable QR? */
 #qr span.move {
-/*    display: none !important; */
+    /* display: none !important; */
 }
-
 
 /* Remove menu */
 #qr select {
-   display: none !important;
+    display: none !important;
 }
-
 
 /* Make the name field become invisible when there's something in it... */
 #qr input.field:nth-child(2) {
-    background: #fefefe !important; 
+    background: #fefefe !important;
     color: #fefefe !important;
 }
+
 /* ... And then make it visible again when you hover over it. */
 #qr input.field:nth-child(2):hover {
-    background: #fefefe !important; 
+    background: #fefefe !important;
     color: #1b1b1b !important;
 }
+
 /* Remove bar above the fields. */
 #qr > div {
     position: fixed !important;
 }
-
 
 /* Relative to 4chan X's menu */
 #fourchanx-settings.dialog,
