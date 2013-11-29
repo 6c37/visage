@@ -1,0 +1,246 @@
+@-moz-document domain("boards.4chan.org") {
+/* Relative to the general appearance of 4chan. */
+body {
+    background: #efefef !important;
+    font-family: 'Open Sans', sans-serif !important;
+    color: #1f1f1f !important;
+    padding-bottom: 50px !important;
+}
+hr {
+    padding-top: 5px !important;
+    border-width: 0px !important;
+}
+/* Display board banner? */
+.boardBanner {
+    display: none !important;
+}
+
+/* Links */
+a {
+    color: #6f6f6f !important;
+}
+/* Foreground of the header bar */
+#board-list,
+#custom-board-list {
+    color: #fff !important;
+    font-family: 'lemon', sans-serif !important;
+}
+#header-bar a {
+    color: #fff !important;
+}
+
+/* Background of the header bar */
+#header-bar.dialog {
+    background: #2f2f2f !important;
+}
+
+/* Color of the selected board on the header bar. */
+#header-bar a.current {
+    color: #8292b2 !important;
+}
+
+/* Appearance of the menus */
+.dialog {
+    background: #2f2f2f !important;
+    border-width: 0px !important;
+    color: #dedede !important;
+}
+
+/* Catalog search and page links, This is not ready. */
+div.navLinks,
+div.pagelist {
+    background: transparent !important;
+    font-family: 'lemon', sans-serif !important;
+    font-size: 9px !important;
+    border-width: 0px !important;
+    left: 50% !important;
+    margin-left: auto !important;
+}
+
+/* Appearance of the thread updater and thread stats. */
+#index-search.field,
+#updater.dialog,
+#thread-stats.dialog {
+    font-family: 'lemon', sans-serif !important;
+    font-size: 9px !important;
+    background: transparent !important;
+    color: #1b1b1b !important;
+    border-style: none !important;
+}
+
+/* Thread updater menu */
+#index-search.field:hover,
+#updater.dialog:hover {
+    background: #eee !important;
+    color: #1b1b1b !important;
+}
+
+/* Clean up. */
+.bottomCtrl.desktop,
+#absbot.absBotText,
+.navLinks.desktop,
+.navLinks.navLinksBot.desktop {
+    display: none !important;
+}
+
+
+
+/* Relative to posts. */
+.post.reply {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 13px !important;
+    background: #fbfbfb !important;
+    color: #1b1b1b !important;
+    width: 100% !important;
+    overflow: hidden !important;
+    border: none !important;
+    border-width: 0px !important;
+    padding: 6px !important;
+}
+
+#post-preview {
+    width: 100% !important;
+    overflow: hidden !important;
+}
+
+
+/* Everything should be self-explanatory. */
+span.subject {
+    color: #596196 !important;
+}
+
+span.postertrip {
+    color: #6673bf !important;
+}
+
+span.postNum a {
+    color: #a5a5a5 !important;
+}
+
+span.name {
+    color: #3d3d3d !important;
+    font-weight: normal !important;
+}
+
+span.dateTime {
+    color: #6f6f6f !important;
+}
+
+a.quotelink {
+    color: #909bda !important;
+}
+
+a.backlink {
+    color: #3f3f3f !important;
+}
+
+span.quote {
+    color: #3ea290 !important;
+}
+
+.postInfo > input,
+a.hide-reply-button > span {
+    display: none !important;
+}
+
+
+/* Relative to post info, i.e. filename, file size, resolution, etc. */
+span.fnfull {
+    font-family: 'lemon', sans-serif !important;
+}
+
+.postInfo a { 
+    color: #6f6f6f !important;
+}
+
+div.fileInfo {
+    font-family: 'lemon', sans-serif !important;
+    font-size: 9px !important;
+}
+
+div.postInfo {
+    font-size: 12px !important;
+}
+
+
+
+/* Relative to the quick reply */
+#qr {
+    border-radius: 2px !important;
+    box-shadow: none !important;
+    transition: all 0.2s ease 0s;
+}
+
+#qr.dialog.has-captcha.autohide,
+#qr.dialog.autohide {
+    top: -300px !important;
+    height: 21px !important;
+    transition: all 0.7s ease 0s;
+}
+
+#qr.dialog.has-captcha,
+#qr.dialog.has-captcha-has-focus {
+    background: #2f2f2f !important;
+    color: #eee !important;
+}
+
+/* Movable QR? */
+#qr span.move {
+    display: none !important;
+}
+
+/* Remove menu on QR  */
+#qr select {
+    display: none !important;
+}
+
+
+#qr > div {
+    position: fixed !important;
+}
+/* QR's appearance. */
+#qr form {
+    bottom: 12px !important;
+    right: 0% !important;
+    width: 300px !important;
+    padding: 4px !important;
+    margin-top: 23px !important;
+    padding-top: 10px !important;
+    padding-bottom: 3px !important;
+    background: #2f2f2f !important;
+    border-color: #2f2f2f !important;
+    border-radius: 4px !important;
+}
+
+/* Make the name field become invisible when there's something on it. */
+input.field:nth-child(2) {
+    background: #fefefe !important; 
+    color: #fefefe !important;
+}
+
+input.field:nth-child(2):hover {
+    background: #fefefe !important; 
+    color: #1b1b1b !important;
+}
+
+#dump-button {
+    background: #3D3D3D !important;
+    border-color: #3d3d3d !important;
+    color: #eee !important;
+}
+/* Color of the fields*/
+.field {
+	background: #fefefe !important;
+    border-color: #1b1b1b !important;
+    color: #2f2f2f !important;
+}
+
+
+/* Relative to 4chan X's menu */
+#fourchanx-settings.dialog,
+fieldset legend,
+a.tab-main.tab-selected {
+    background: #2f2f2f !important;
+    color: #dedede !important;
+}
+}
