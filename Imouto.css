@@ -9,7 +9,7 @@ body {
 }
 hr {
     padding-top: 5px !important;
-    border-width: 0px !important;
+    border: 0 !important;
 }
 
 /* Links */
@@ -41,7 +41,7 @@ a {
 #menu.dialog,
 .entry {
     background: #2f2f2f !important;
-    border-width: 0px !important;
+    border: 0 !important;
     color: #ccc !important;
     font-family: 'lemon', sans-serif !important;
     font-size: 0.750rem !important;
@@ -53,9 +53,8 @@ div.pagelist {
     background: transparent !important;
     font-family: 'lemon', sans-serif !important;
     font-size: 0.750rem !important;
-    border-width: 0 !important;
+    border: 0 !important;
     display: inline-block !important;
-    margin-left: 38% !important;
     margin-bottom: 0 !important;
 }
 
@@ -105,8 +104,7 @@ div.ad-plea {
     background: #fbfbfb !important;
     color: #1b1b1b !important;
     width: 100% !important;
-    border: none !important;
-    border-width: 0px !important;
+    border: 0 !important;
     padding: 6px !important;
 }
 .thread {
@@ -227,7 +225,7 @@ span.fnfull {
 
 /* Movable QR? */
 #qr span.move {
-    /* display: none !important; */
+    display: none !important;
 }
 
 /* Remove menu */
@@ -256,7 +254,7 @@ span.fnfull {
 #fourchanx-settings.dialog,
 fieldset legend,
 a.tab-main.tab-selected {
-    font-family:  sans-serif !important;
+    font-family: sans-serif !important;
     font-size: 11px !important;
     background: #2f2f2f !important;
     color: #dedede !important;
