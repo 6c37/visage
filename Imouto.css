@@ -30,6 +30,7 @@ a {
 /* Background of the header bar */
 #header-bar.dialog {
     background: #2f2f2f !important;
+    border: 0 !important;
 }
 
 /* Color of the selected board on the header bar. */
@@ -106,7 +107,9 @@ div.ad-plea {
     width: 100% !important;
     border: 0 !important;
     padding: 6px !important;
+    box-shadow: #afafaf 0 0 2px !important;
 }
+
 .thread {
     margin-top: -10px !important;
     margin-right: 30px !important;
@@ -158,6 +161,18 @@ a.backlink {
 span.quote {
     color: #3ea290 !important;
 }
+
+.inline {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    border: 0 !important;
+}
+
+.inline .post.reply {
+    background-color: #fff !important;
+    border: 0 !important;
+}
+
 
 /* Hide "hide reply" buttons. */
 .postInfo > input,
