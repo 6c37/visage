@@ -29,7 +29,7 @@ a {
 
 /* Background of the header bar */
 #header-bar.dialog {
-    background: #2f2f2f !important;
+    background: #1b1b1b !important;
     border: 0 !important;
 }
 
@@ -41,7 +41,7 @@ a {
 /* Appearance of the menus. */
 #menu.dialog,
 .entry {
-    background: #2f2f2f !important;
+    background: #1b1b1b !important;
     border: 0 !important;
     color: #ccc !important;
     font-family: 'lemon', sans-serif !important;
@@ -198,7 +198,7 @@ span.fnfull {
 
 /* Relative to the quick reply. */
 #qr {
-    background: #2f2f2f !important;
+    background: #1b1b1b !important;
     color: #eee !important;
     border: none !important;
     border-radius: 2px !important;
@@ -213,8 +213,8 @@ span.fnfull {
     margin-top: 23px !important;
     padding-top: 10px !important;
     padding-bottom: 3px !important;
-    background: #2f2f2f !important;
-    border-color: #2f2f2f !important;
+    background: #1b1b1b !important;
+    border-color: #1b1b1b !important;
     border-radius: 4px !important;
 }
 #dump-button {
@@ -227,15 +227,7 @@ span.fnfull {
 #qr .field {
     background: #fefefe !important;
     border-color: #1b1b1b !important;
-    color: #2f2f2f !important;
-}
-
-/* QR animations. */
-#qr.dialog.has-captcha.autohide,
-#qr.dialog.autohide {
-    top: -300px !important;
-    height: 21px !important;
-    transition: all 0.7s ease 0s;
+    color: #1b1b1b !important;
 }
 
 /* Movable QR? */
@@ -271,7 +263,7 @@ fieldset legend,
 a.tab-main.tab-selected {
     font-family: sans-serif !important;
     font-size: 11px !important;
-    background: #2f2f2f !important;
+    background: #1b1b1b !important;
     color: #dedede !important;
 }
 }
