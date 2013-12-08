@@ -110,15 +110,25 @@ div.ad-plea {
     box-shadow: #afafaf 0 0 2px !important;
 }
 
+/* Relative to the thread */
 .thread {
     margin-top: -10px !important;
     margin-right: 30px !important;
     margin-left: 15px !important;
 }
-.opContainer {
-    width: 100% !important;
+div.postContainer.opContainer {
     display: inline-block !important;
+    width: 100% !important;
     margin: auto !important;
+}
+.inline {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    border: 0 !important;
+}
+.inline .post.reply {
+    background-color: #fff !important;
+    border: 0 !important;
 }
 
 /* Post subjects. */
@@ -162,17 +172,12 @@ span.quote {
     color: #3ea290 !important;
 }
 
-.inline {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-    border: 0 !important;
+/* Post menu button. */
+.post .menu-button {
+    float: right;
+    position: relative;
+    left: 0px;
 }
-
-.inline .post.reply {
-    background-color: #fff !important;
-    border: 0 !important;
-}
-
 
 /* Hide "hide reply" buttons. */
 .postInfo > input,
@@ -186,15 +191,19 @@ div.postInfo {
     color: #6f6f6f !important;
     font-size: 12px !important;
 }
-div.fileInfo {
+
+/* Relative to file info, i.e. filename, file size, resolution, etc. */
+div.fileText {
     font-family: 'lemon', sans-serif !important;
     font-size: 0.750rem !important;
 }
 
-/* Relative to file info, i.e. filename, file size, resolution, etc. */
-span.fnfull {
-    font-family: 'lemon', sans-serif !important;
+/* Fix post previews. */
+#qp {
+    border: 0 !important;
+    box-shadow: none !important;
 }
+
 
 /* Relative to the quick reply. */
 #qr {
