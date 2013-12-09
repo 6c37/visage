@@ -14,6 +14,4 @@ See [TODO](https://github.com/SkyCorp/Imouto/blob/master/TODO).
 ## Others
 For animations, check out [Otouto!](https://github.com/SkyCorp/Otouto)
 
-Feel free to submit feedback! this helps us improve the default code.
-
-And as always, use the issues tracker if you run into any nasty bugs with the base CSS.
+Feel free to submit feedback! And as always, use the issues tracker if you run into any nasty bugs with the base CSS.
