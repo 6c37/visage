@@ -1,0 +1,45 @@
+@-moz-document domain("news.ycombinator.com") {
+/* Body of HN. */
+body {
+    margin: 0;
+    font-size: 1em !important;
+    height: 90% !important;
+} 
+table {
+    width: 100% !important;
+}
+/* Header. */
+center > table > tbody > tr:first-child > td {
+    background: #232323 !important;
+}
+a > img {
+    display: none !important;
+}
+span.pagetop a {
+    font-family: "Open Sans", sans-serif !important;
+    color: #fff !important;
+    font-size: 0.90em;
+}
+
+/* Post titles. */
+td.title a {
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 0.90em !important;
+}
+/* Post info. */
+td.subtext,
+td.subtext a {
+    font-family: "Open Sans", sans-serif !important;
+    color: #1f1f1f !important;
+}
+span.comhead {
+    font-size: 0.75em !important;
+}
+/* Comments. */
+span.comment {
+    padding-left: 0 !important;
+}
+body > center > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td {
+    background: #899AFF !important;
+}
+}
