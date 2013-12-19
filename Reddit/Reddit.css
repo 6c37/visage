@@ -1,0 +1,85 @@
+@-moz-document domain("reddit.com") {
+/* Subreddit list */
+a#sr-more-link,
+.sr-bar a,
+div.sr-list {
+    color: #ebebeb !important;
+    background: #232323 !important;
+}
+/* Selected subreddit in the list */
+div.sr-list li.selected a {
+    color:  #6673bf !important;
+}
+
+/* Header bar */
+#header {
+    border-bottom: 1px solid #232323 !important;
+}
+div#header-bottom-right,
+div#header-bottom-left {
+    background: #ebebeb !important;
+}
+/* Display logo? */
+img#header-img {
+    display: none !important;
+}
+/* "Tabs" in the header. */
+ul.tabmenu li a {
+    background: #fff !important;
+    color: #232323 !important;
+}
+/* Selected tab */
+ul.tabmenu li.selected a {
+    color: #6673bf !important;
+    border: 1px solid #232323 !important;
+}
+/* User bar */
+span.user a,
+a.pref-lang,
+form.logout.hover a {
+    color: #232323 !important;
+}
+#header-bottom-right {
+    padding-bottom: 8px !important;
+}
+/* Sidebar */
+div.side {
+    opacity: 0 !important; /* Hide sidebar when unfocused. */
+    padding-left: 20px !important;
+    background: #ebebeb !important;
+    transition: all 0.2s ease 0s;
+}
+div.side:hover {
+    opacity: 100 !important; /* Show it again when focused */
+}
+.morelink .nub {
+    display: none !important;
+}
+/* Buttons on sidebar */
+.submit-link a, 
+.submit-text a {
+    color: #ebebeb !important;
+    background: #232323 !important;
+    font-size: 0.8em !important;
+}
+/* Links */
+a.title,
+a.author {
+    color: #6673bf !important;
+}
+/* Hide flairs? */
+form.toggle.flairtoggle,
+div.tagline,
+span.flair {
+    display: none !important;
+}
+/* Clean up sidebar */
+div.md p del,
+.sidebox.create /* Create your own subreddit */  {
+    display: none !important;
+}
+/* Display footer? */
+div.footer-parent {
+    display: none !important;
+}
+}
