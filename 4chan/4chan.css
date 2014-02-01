@@ -21,7 +21,7 @@ a {
 #board-list,
 #custom-board-list {
     color: #fff !important;
-    font-family: 'lemon', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 #header-bar a {
     color: #fff !important;
@@ -29,7 +29,7 @@ a {
 
 /* Background of the header bar */
 #header-bar.dialog {
-    background: #232323 !important;
+    background: #2f2f2f !important;
     border: 0 !important;
 }
 
@@ -41,10 +41,10 @@ a {
 /* Appearance of the menus. */
 #menu.dialog,
 .entry {
-    background: #232323 !important;
+    background: #2f2f2f !important;
     border: 0 !important;
     color: #ccc !important;
-    font-family: 'lemon', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
     font-size: 0.750rem !important;
 }
 
@@ -52,7 +52,7 @@ a {
 div.navLinks,
 div.pagelist {
     background: transparent !important;
-    font-family: 'lemon', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
     font-size: 0.750rem !important;
     border: 0 !important;
     display: inline-block !important;
@@ -63,10 +63,10 @@ div.pagelist {
 #index-search.field,
 #updater.dialog,
 #thread-stats.dialog {
-    font-family: 'lemon', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
     font-size: 0.750rem !important;
     background: transparent !important;
-    color: #232323 !important;
+    color: #2f2f2f !important;
     border-style: none !important;
 }
 
@@ -74,7 +74,7 @@ div.pagelist {
 #index-search.field:hover,
 #updater.dialog:hover {
     background: #eee !important;
-    color: #232323 !important;
+    color: #2f2f2f !important;
 }
 
 /* Clean up. */
@@ -104,7 +104,7 @@ div.ad-plea {
     font-family: 'Open Sans', sans-serif !important;
     font-size: 13px !important;
     background: #fbfbfb !important;
-    color: #232323 !important;
+    color: #2f2f2f !important;
     width: 100% !important;
     border: 0 !important;
     padding: 6px !important;
@@ -195,7 +195,7 @@ div.postInfo {
 
 /* Relative to file info, i.e. filename, file size, resolution, etc. */
 div.fileText {
-    font-family: 'lemon', sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
     font-size: 0.750rem !important;
 }
 
@@ -208,7 +208,7 @@ div.fileText {
 
 /* Relative to the quick reply. */
 #qr {
-    background: #232323 !important;
+    background: #2f2f2f !important;
     color: #eee !important;
     border: none !important;
     border-radius: 2px !important;
@@ -223,8 +223,8 @@ div.fileText {
     margin-top: 23px !important;
     padding-top: 10px !important;
     padding-bottom: 3px !important;
-    background: #232323 !important;
-    border-color: #232323 !important;
+    background: #2f2f2f !important;
+    border-color: #2f2f2f !important;
     border-radius: 4px !important;
 }
 #dump-button {
@@ -236,8 +236,8 @@ div.fileText {
 /* Color of the fields. */
 #qr .field {
     background: #fefefe !important;
-    border-color: #232323 !important;
-    color: #232323 !important;
+    border-color: #2f2f2f !important;
+    color: #2f2f2f !important;
 }
 
 /* Movable QR? */
@@ -259,7 +259,7 @@ div.fileText {
 /* ... And then make it visible again when you hover over it. */
 #qr input.field:nth-child(2):hover {
     background: #fefefe !important;
-    color: #232323 !important;
+    color: #2f2f2f !important;
 }
 
 /* Remove bar above the fields. */
@@ -273,7 +273,7 @@ fieldset legend,
 a.tab-main.tab-selected {
     font-family: sans-serif !important;
     font-size: 11px !important;
-    background: #232323 !important;
+    background: #2f2f2f !important;
     color: #dedede !important;
 }
 }
