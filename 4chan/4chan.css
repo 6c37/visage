@@ -276,4 +276,44 @@ a.tab-main.tab-selected {
     background: #2f2f2f !important;
     color: #dedede !important;
 }
+
+/*** Animations ***/
+
+/* Change backlinks to >> and animate them. */
+a.backlink {
+    text-decoration: none !important;
+    font-size: 0 !important;;
+}
+.backlink:after {
+    font-size: 11px !important;
+    padding: 1px;
+    content: '>>' !important;
+    text-decoration: none !important;
+}
+.backlink:not(:first-child) {
+    margin-left: -1.0rem;
+    transition: all .1s linear .2s;
+    opacity: 0;
+}
+/* Post menu animations. */
+.postContainer:hover .backlink {
+    margin-left: 0rem;
+    transition-delay: .1s;
+    opacity: 100;
+}
+.post.reply a.menu-button {
+    opacity: 0;
+    transition: all .2s;
+}
+.post.reply:hover .menu-button {
+    opacity: 100;
+    transition: all .1s;
+}
+/* QR animations. */
+#qr.dialog.has-captcha.autohide,
+#qr.dialog.autohide {
+    top: -300px !important;
+    height: 21px !important;
+    transition: all 0.7s ease 0s;
+}
 }
