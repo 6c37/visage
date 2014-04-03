@@ -182,7 +182,7 @@ span.quote {
 
 /* Hide "hide reply" buttons. */
 .postInfo > input,
-a.hide-reply-button > span {
+a.hide-post-button {
     display: none !important;
 }
 
