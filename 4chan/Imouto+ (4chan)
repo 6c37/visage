@@ -1,0 +1,409 @@
+@-moz-document domain("boards.4chan.org") {
+/* Relative to the general appearance of 4chan. */
+#file-n-submit input{
+border: none;
+margin: 5px 10px 5px 2px;
+padding: 2px;
+border-radius: 2px;
+}
+#blotter { display: none !important;}
+body {
+    background: #eee !important;
+    font-family: Source Sans Pro;
+    color: #1f1f1f !important;
+    margin: 10px !important;
+    font-size: 13px !important;
+}
+hr {
+    padding-top: 5px !important;
+    border: 0 !important;
+}
+
+/* Links */
+a {
+    color: #6f6f6f !important;
+}
+
+/* Foreground of the header bar */
+#thread-watcher .fa-bars:before {
+    content: "" !important;
+}
+
+.postInfo .fa-bars:before{
+     content: "" !important;
+}
+#board-list, #custom-board-list {
+    margin-top: 2px;
+    font-family: source sans pro;
+    color: rgb(136, 153, 170);
+    font-size: 12px;
+    text-shadow: 0px 1px 0px #fff;
+}
+#header-bar a {
+    color: #333849 !important;
+}
+#header-bar {
+padding-top: 6px !important;
+}
+/* Background of the header bar */
+#header-bar.dialog {
+    background: none repeat scroll 0% 0% #F7F7F8 !important;
+    padding: 0px 0px 11px 10px;
+    box-shadow: 0px -1px 0px #FFF inset, 0px 2px 2px rgba(0, 0, 0, 0.03);
+    border-top: 1px solid #fff;
+    margin-top: 1px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+/* Color of the selected board on the header bar. */
+#header-bar a.current {
+    color: #7f8083 !important;
+}
+
+/* Appearance of the menus. */
+.brackets-wrap:after, .brackets-wrap:before { content: none !important;}
+.brackets-wrap { 
+  letter-spacing: 3px;
+  position: relative;
+  top: -6px;
+  left: -10px;
+  padding: 8px 5px 5px 5px;
+  margin-bottom: -17px;
+  border-right: 1px solid #dcdcdc;
+  box-shadow: -1px 0px 0px #fff inset, 1px 0px 0px #fff;
+}
+
+#shortcuts .fa{
+padding: 11px 10px !important;
+margin: -9px -4px !important;
+}
+#shortcuts .fa-bars {
+  vertical-align: 0px;
+}
+#shortcuts .fa:hover {
+background: #dcdcdc;
+}
+.fa, .fa.fa { font-size: 15px;}
+.fa:hover { opacity: 0.7}
+#menu.dialog,
+.entry {
+    background: #232323 !important;
+    border: 0 !important;
+    color: #ccc !important;
+    font-family: Source Sans Pro;
+    font-size: 0.750rem !important;
+}
+
+/* Catalog search and page links, This is not ready. */
+div.navLinks,
+div.pagelist {
+    background: transparent !important;
+    font-family: Source Sans Pro;
+    font-size: 0.750rem !important;
+    border: 0 !important;
+    display: inline-block !important;
+    margin-bottom: 0 !important;
+}
+
+/* Appearance of the thread updater and thread stats. */
+#index-search.field,
+#updater.dialog,
+#thread-stats.dialog {
+    font-family: Source Sans Pro;
+    font-size: 0.750rem !important;
+    background: transparent !important;
+    color: #232323 !important;
+    border-style: none !important;
+}
+
+/* Thread updater menu */
+#index-search.field:hover,
+#updater.dialog:hover {
+    background: #eee !important;
+    color: #232323 !important;
+}
+
+/* Clean up. */
+.bottomCtrl.desktop,
+#absbot.absBotText,
+.navLinks.desktop,
+.navLinks.navLinksBot.desktop {
+    display: none !important;
+}
+
+/* Hide ads? */
+div.center,
+div.topad.center,
+div.middlead.center,
+div.bottomad.center,
+div.ad-plea {
+    display: none !important;
+}
+
+/* Display board banner? */
+.boardBanner {
+    display: none !important;
+}
+
+/* Relative to posts. */
+.post.reply {
+    font-family: Source Sans Pro;
+    font-size: 13px !important;
+    background: #fbfbfb !important;
+    color: #232323 !important;
+    width: 100% !important;
+    border: 0 !important;
+    padding: 6px !important;
+    box-shadow: #afafaf 0 0 2px !important;
+}
+
+/* Relative to the thread */
+.thread {
+    margin-top: -10px !important;
+    margin-right: 30px !important;
+    margin-left: 15px !important;
+}
+div.postContainer.opContainer {
+    display: inline-block !important;
+    width: 100% !important;
+    margin: auto !important;
+}
+.inline {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    border: 0 !important;
+}
+.inline .post.reply {
+    background-color: #fff !important;
+    border: 0 !important;
+}
+
+/* Post subjects. */
+span.subject {
+    color: #596196 !important;
+}
+
+/* Tripcodes. */
+span.postertrip {
+    color: #6673bf !important;
+}
+
+/* Post numbers. */
+span.postNum a {
+    color: #a5a5a5 !important;
+}
+
+/* Poster's name. */
+span.name {
+    color: #3d3d3d !important;
+    font-weight: normal !important;
+}
+.shortcut:not(:last-child):after { content: " " !important;}
+/* Date and time of the posts. */
+span.dateTime {
+    color: #6f6f6f !important;
+}
+
+/* Quote links. */
+a.quotelink {
+    color: #909bda !important;
+}
+
+/* Link to posts quoting the current post. */
+a.backlink {
+    color: #3f3f3f !important;
+}
+
+/* Greentext. */
+span.quote {
+    color: #3ea290 !important;
+}
+
+/* Post menu button. */
+.post .menu-button {
+    float: right;
+    position: relative;
+    left: 0px;
+}
+.menu-button{position: relative; top: -1px !important;
+}
+
+/* Hide "hide reply" buttons. */
+.fa-minus-square-o:before { display: none;}
+.postInfo > input,
+a.hide-reply-button > span {
+    display: none !important;
+}
+
+/* Relative to post info, i.e. Post name, tripcode, post date, etc. */
+.postInfo a,
+div.postInfo {
+    color: #6f6f6f !important;
+    font-size: 12px !important;
+}
+
+/* Relative to file info, i.e. filename, file size, resolution, etc. */
+div.fileText {
+    font-family: Source Sans Pro;
+    font-size: 0.750rem !important;
+}
+
+/* Fix post previews. */
+#qp {
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+
+/* Relative to the quick reply. */
+#qr {
+    background: #232323 !important;
+    color: #eee !important;
+    border: none !important;
+    border-radius: 2px !important;
+    box-shadow: none !important;
+    transition: all 0.2s ease 0s;
+}
+#qr form {
+    bottom: 12px !important;
+    right: 0% !important;
+    width: 300px !important;
+    padding: 4px !important;
+    margin-top: 23px !important;
+    padding-top: 10px !important;
+    padding-bottom: 3px !important;
+    background: #232323 !important;
+    border-color: #232323 !important;
+    border-radius: 4px !important;
+}
+#dump-button {
+    background: #3d3d3d !important;
+    border-color: #3d3d3d !important;
+    color: #eee !important;
+}
+
+/* Color of the fields. */
+#qr .field {
+    background: #fefefe !important;
+    border-color: #232323 !important;
+    color: #232323 !important;
+}
+
+/* Movable QR? */
+#qr span.move {
+    display: none !important;
+}
+
+/* Remove menu */
+#qr select {
+    display: none !important;
+}
+
+/* Make the name field become invisible when there's something in it... */
+#qr input.field:nth-child(2) {
+    background: #fefefe !important;
+    color: #fefefe !important;
+}
+
+/* ... And then make it visible again when you hover over it. */
+#qr input.field:nth-child(2):hover {
+    background: #fefefe !important;
+    color: #232323 !important;
+}
+
+/* Remove bar above the fields. */
+#qr > div {
+    position: fixed !important;
+}
+
+/* Relative to 4chan X's menu */
+#fourchanx-settings.dialog,
+fieldset legend,
+a.tab-main.tab-selected {
+    font-family: Source Sans Pro;
+    font-size: 11px !important;
+    background: #232323 !important;
+    color: #dedede !important;
+}
+#custom-board-list a {
+margin-right: 2px;
+color: rgb(51, 56, 73) !important;
+display: inline;
+    padding: 6px 3px !important;
+}
+#custom-board-list a:hover {
+    border-bottom: 5px solid #34345C;
+   color: #34345C;
+    font-style: italic;
+text-shadow: none !important;
+
+}
+
+
+#custom-board-list{
+text-align: left !important;
+margin-left: 10px;
+}
+#thread-watcher .menu-button { top: 12px !important; position: absolute;}
+#thread-watcher .move {
+    display: none;
+}
+#board-list {
+    text-align: left !important;
+    margin-left: -5px;
+}
+#watched-threads div {
+    display: inline;
+}
+#thread-watcher {
+    background: none repeat scroll 0% 0% transparent !important;
+    border: medium none !important;
+    box-shadow: none !important;
+    width: 672px !important;
+    top: -1px !important;
+    float: right;
+    color: #DCDCDC !important;
+    max-width: inherit !important;
+    min-width: inherit !important;
+    padding: 0px !important;
+    position: fixed !important;
+    right: 10px !important;
+    left: auto !important;
+    z-index: 9999999 !important;
+}
+#watched-threads { 
+right: 20px;
+float: right !important;
+    position: relative !important;
+    top: 8px !important;
+    text-align: right !important;
+}
+#watched-threads a {
+    text-decoration: none;
+    color: #333849 !important;
+    max-width: 200px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: "...";
+   margin-top: 5px;
+}
+#watched-threads .current .fa, #watched-threads .fa{
+  position: relative; 
+  top: -2px;
+} 
+#thread-watcher .menu-button{
+position: absolute;
+right: 0px;
+top: 7px;
+}
+#watched-threads div {
+    margin-left: 10px;
+}
+#watched-threads a {
+font-size: 12px !important;
+}
+.backlink {
+    font-family: Ionicons, calibri !important;
+text-decoration: none !important;
+}
+}
