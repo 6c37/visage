@@ -12,7 +12,10 @@ See [TODO](https://github.com/SkyCorp/Imouto/blob/master/TODO).
 
 ## Info about support
 Firefox is the only supported browser and Stylish is the only supported extension.
+
 Support for other browsers and extensions is not considered at the present time.
 
 ## Other
-Feel free to submit feedback! And as always, use the issues tracker if you run into any nasty bugs with the base CSS.
+Feel free to submit feedback! 
+
+And as always, use the issues tracker if you run into any nasty bugs with the base CSS.
