@@ -1,14 +1,14 @@
-# Imouto
+# Visage
 
-## What is Imouto?
-Imouto is a collection of stylesheets for several websites.
+## What is Visage?
+Visage is a collection of stylesheets for several websites.
 
 The stylesheets are very "DIY", the code is meant to be as clean as possible, in order to allow advanced users to do the customization they want.
 
 You can use them as a base to create your own custom theme.
 
 ## Planned features
-See [TODO](https://github.com/SkyCorp/Imouto/blob/master/TODO).
+See [TODO](https://github.com/6c37/Visage/blob/master/TODO).
 
 ## Info about support
 Firefox is the only supported browser and Stylish is the only supported extension.
