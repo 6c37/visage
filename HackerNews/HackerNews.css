@@ -1,45 +1,93 @@
 @-moz-document domain("news.ycombinator.com") {
 /* Body of HN. */
-body {
-    margin: 0;
-    font-size: 1em !important;
-    height: 90% !important;
-} 
-table {
-    width: 100% !important;
+body,
+td, tr {
+	background: #09090d !important;
+	margin: 0;
+	font-size: 1em !important;
+	height: 90% !important;
 }
+
+* {
+	font-family: 'Source Sans Pro' !important;
+}
+
 /* Header. */
 center > table > tbody > tr:first-child > td {
-    background: #232323 !important;
+	background: #09090d !important;
 }
 a > img {
-    display: none !important;
+	display: none !important;
 }
 span.pagetop a {
-    font-family: "Open Sans", sans-serif !important;
-    color: #fff !important;
-    font-size: 0.90em;
+	color: #839496 !important;
+	font-size: 18px;
 }
 
 /* Post titles. */
 td.title a {
-    font-family: "Open Sans", sans-serif !important;
-    font-size: 0.90em !important;
+	color: #839496 !important;
+	font-size: 18px !important;
 }
 /* Post info. */
 td.subtext,
-td.subtext a {
-    font-family: "Open Sans", sans-serif !important;
-    color: #1f1f1f !important;
+td.subtext a,
+td.title > span.sitebit.comhead {
+	font-size: 16px !important;
+	color: #545466 !important;
+	padding-bottom: 5px !important;
+}
+/* New users */
+td.subtext a > font {
+	color: #7b8c58 !important;
 }
 span.comhead {
-    font-size: 0.75em !important;
+	font-size: 0.75em !important;
 }
+
 /* Comments. */
-span.comment {
-    padding-left: 0 !important;
+span.comment,
+span.comment > font,
+span.comment > p > font {
+	color: #839496 !important;
+	padding-left: 0 !important;
+	font-size: 14px !important;
 }
-body > center > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td {
-    background: #899AFF !important;
+
+/* Links */
+a {
+	color: #353540 !important;
+}
+
+/* Input fields and buttons */
+form > textarea {
+	background: #0c0c12 !important;
+	font-family: "M+ 1m" !important;
+	font-size: 18px !important;
+	color: #839496 !important;
+	border: 0 !important;
+}
+
+form > input {
+	font-family: sans-serif !important;
+	font-size: 16px !important;
+	border: 1px #353540 !important;
+	color: #839496
+}
+
+/* Text. */
+b,
+form > table > tbody > tr > td {
+	color: #839496 !important;
+}
+
+/* Ycombinator footing */
+span.yclinks {
+	display: none !important;
+}
+
+/* Upvotes. */
+div.votearrow {
+	background: url('https://u.teknik.io/kdq6N2.png')
 }
 }
