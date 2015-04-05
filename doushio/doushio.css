@@ -62,7 +62,7 @@ del:hover, del:hover em, del.reveal, del.reveal em {
 /* Embedding */
 .embed {
     background-color: #383838;
-    color: #00AA91 !important;
+    color: #9db270 !important;
 }
 .embed:hover {
     color: #00AA91 !important;
