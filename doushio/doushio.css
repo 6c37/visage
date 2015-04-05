@@ -4,40 +4,48 @@
 a, blockquote a:hover, b.moderator {
     color: #58698c !important;
 }
+
 a:hover, blockquote a, .email b:hover, article.editing a:hover {
     color: #7086b2 !important;
 }
+
 /* Icons on top bar */
 .bfloat > svg {
     fill: #7b5e7d !important;
 }
+
 /* Posts */
 article, aside, .bmodal, .pagination {
     background-color: #0c0c12 !important;
     border: 1px solid #0c0c12 !important;
 }
+
 article.highlight {
     background-color: #0c0c12 !important;
     border-left: 2px solid #0c0c12 !important;
 }
+
 article.editing {
     background-color: #0c0c12 !important;
     color: #839496 !important;
     border: 1px solid #292a2b !important;
 }
+
 /* Names */
 b.admin {
     color: #f00000 !important;
 }
+
 b, .option_tab_sel a.tab_sel {
     color: #545466 !important;
 }
+
 /* Top bar; only present on bakape's fork */
 #banner {
     background: black;
     border-bottom: 1px solid #292a2b !important;
 }
-/* Don't touch my body, onii-chan! */
+
 body {
     background-color: #09090d !important;
     color: #839496 !important;
@@ -46,44 +54,53 @@ body, pre, .themed {
     font-size: 10pt !important;
     font-family: 'Source Sans Pro', sans-serif !important;
 }
-/* Tripcode */
+
+/* Tripcodes */
 code {
     color: #545466 !important;
 }
+
 /* Text spoiler. As it's black by default, must be manually fixed */
 del {
     background-color: #66808c !important;
     color: #66808c !important;
     text-shadow: none !important;
 }
+
 del:hover, del:hover em, del.reveal, del.reveal em {
     color: #000 !important;
 }
+
 /* Embedding */
 .embed {
     background-color: #383838;
     color: #9db270 !important;
 }
+
 .embed:hover {
     color: #00AA91 !important;
 }
-/* >Greentext */
+
+/* Quotes */
 em {
     color: #7b8c58 !important;
 }
+
 /* Header */
 h1 {
     color: #8c8b8b;
     font-weight: bold;
-    font-family:  "MS PGothic",  "Mona",  "Hiragino Kaku Gothic Pro",  Helvetica,  sans-serif !important;
-    letter-spacing: 1px !important;;
+    font-family: sans-serif !important;
+    letter-spacing: 1px !important;
 }
+
 h3 {
     color: #8c5760 !important;
 }
 hr {
     border-top: 1px solid #282a2e !important;
 }
+
 /* Menus */
 .popup-menu li:hover {
     background-color: #136 !important;
@@ -92,22 +109,25 @@ hr {
     background-color: #1d1d21 !important;
     border-color: #111 !important;
 }
+
 /* This one is for original doushio only */
 #options-panel {
     background-color: #0c0c12 !important;
     border: 1px solid #292a2b !important;
 }
+
 /* Misc */
 .omit {
     color: #707070 !important;
 }
+
 .themed {
     color: #999 !important;
 }
+
 input {
     background-color: #0c0c12 !important;
     border: 1px solid #292a2b !important;
     margin-bottom: 2px !important;
 }
 }
-
