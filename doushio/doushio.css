@@ -127,7 +127,7 @@ hr {
 
 input {
     background-color: #0c0c12 !important;
-    border: 1px solid #292a2b !important;
+    border: 0 !important;
     margin-bottom: 2px !important;
 }
 }
