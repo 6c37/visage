@@ -1,3 +1,3 @@
 ## Satori pomf.se
 
-<img src=https://u.teknik.io/Qe4le0.png>
+<img src=https://u.teknik.io/I2KJjR.png>
