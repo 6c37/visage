@@ -34,11 +34,18 @@ a{
   
 /* The Button(s) */  
   
-.btn.upload-btn{
+.upload-btn{
   color:#59698c!important;
-  background-color:#0D0D13!important;
+  background-color:rgba(88, 105, 140, 1)!important;
   font-weight: normal!important;
   text-shadow:0px 0px #000000!important;
+}
+  
+.btn{
+  background-color:rgba(13, 13, 19, 1)!important;
+  border-width:0px!important;
+  text-shadow:0px 0px #000000!important;
+  color:#7b8c58!important;
 }
   
 .donate-btn{
@@ -57,3 +64,4 @@ a{
   display: none!important;
 }  
 }
+
