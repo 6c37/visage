@@ -1,0 +1,95 @@
+@-moz-document domain("github.com") {
+/* very code */
+
+/* remove borders */
+.header,
+.news .alert,
+.pagehead,
+.overall-summary,
+.repository-lang-stats-graph,
+.select-menu-item,
+.select-menu-tabs,
+.select-menu-tabs a.selected {
+  border: 0px none !important;
+}
+
+body {
+  color: #839496 !important;
+  background-color: #09090d !important;
+}
+
+.header {
+  background-color: #0d0d13 !important;
+}
+
+.header button, /* the 'sign out' link *has* to be different than everything else */
+a {
+  color: #59698c !important;
+  text-decoration: none !important;
+}
+
+.text-emphasized {
+  color: #59698c !important;
+}
+
+.repository-meta .repository-description {
+  color: #839496 !important;
+}
+
+.overall-summary {
+  background-color: #0d0d13 !important;
+}
+
+.btn,
+.btn:active,
+.btn:focus,
+.btn:hover {
+  color: #839496 !important;
+  background-color: #0d0d13 !important;
+  border: 1px solid #0d0d13 !important;
+  background-image: none !important;
+}
+
+.social-count {
+  background-color: #0d0d13 !important;
+  border: 1px solid #0d0d13 !important;
+}
+
+.select-menu-modal {
+  border: 0px none !important;
+  background-color: #0d0d13 !important;
+}
+.select-menu-header {
+  background: none repeat scroll 0% 0% #0d0d13 !important;
+  border-bottom: 0px none !important;
+}
+.select-menu-header .select-menu-title {
+  color: #839496 !important;
+  text-shadow: none !important;
+}
+.select-menu-filters {
+  background-color: transparent !important; /* use the main modal's background color */
+}
+.select-menu-text-filter input {
+  border: 0px none !important;
+  color: #839496 !important;
+  background-color: #0d0d13 !important;
+}
+.select-menu-tabs a {
+  border-radius: 3px 3px 3px 3px !important;
+}
+.select-menu-tabs a.selected {
+  background-color: transparent !important;
+}
+
+.sunken-menu::before,
+.sunken-menu::after,
+.sunken-menu {
+  box-shadow: none !important;
+  background-color: #0d0d13 !important;
+  background-image: none !important;
+}
+.sunken-menu-separator {
+  display: none !important;
+}
+}
