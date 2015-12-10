@@ -1,3 +1,3 @@
-## Satori for 4chan
+## Visage for 4chan
 
 <img src=https://u.teknik.io/6PZEfn.png>
