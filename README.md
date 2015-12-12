@@ -11,7 +11,7 @@ You can use them as a base to create your own custom theme.
 See [TODO](https://github.com/6c37/Visage/blob/master/TODO).
 
 ## Info about support
-Firefox is the only supported browser and Stylish and jotjs are the only supported extensions.
+Firefox is the only supported browser and Stylish and dotjs are the only supported extensions.
 
 Support for other browsers and extensions is not considered at the present time.
 
