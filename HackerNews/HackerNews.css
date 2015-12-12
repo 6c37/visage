@@ -77,7 +77,7 @@ form > input {
 
 /* Text. */
 b,
-form > table > tbody > tr > td {
+form > table > tbody > tr > td, p, span.c00 {
 	color: #839496 !important;
 }
 
