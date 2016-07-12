@@ -2,7 +2,7 @@
 /* Relative to the general appearance of 4chan. */
 body {
 	background: #09090d !important;
-	font-family: Source, Helvetica, Arial, sans-serif !important;
+	font-family: 'Source', 'Helvetica', 'Arial', sans-serif !important;
 	color: #839496 !important;
 	margin: auto !important;
 	font-size: 15px !important;
@@ -24,7 +24,7 @@ a:hover {
 #board-list,
 #custom-board-list {
 	color: #839496 !important;
-	font-family: 'Nimbus Sans L', Helvetica, Arial, sans-serif !important;
+	font-family: 'Nimbus Sans L', 'Helvetica', 'Arial', sans-serif !important;
 	font-size: 14px !important;
 }
 #header-bar a {
@@ -49,7 +49,7 @@ div.dialog.submenu.top.right {
 	background: #09090d !important;
 	border: 0 !important;
 	color: #83949d !important;
-	font-family: 'Nimbus Sans L', Helvetica, Arial, sans-serif !important;
+	font-family: 'Nimbus Sans L', 'Helvetica', 'Arial', sans-serif !important;
 	font-size: 0.750rem !important;
 }
 
@@ -57,7 +57,7 @@ div.dialog.submenu.top.right {
 div.navLinks,
 div.pagelist {
 	background: transparent !important;
-	font-family: 'Source', Helvetica, Arial, sans-serif !important;
+	font-family: 'Source', 'Helvetica', 'Arial', sans-serif !important;
 	font-size: 0.750rem !important;
 	border: 0 !important;
 	display: inline-block !important;
@@ -68,7 +68,7 @@ div.pagelist {
 #index-search.field,
 #updater.dialog,
 #thread-stats.dialog {
-	font-family: 'Source', Helvetica, Arial, sans-serif !important;
+	font-family: 'Source', 'Helvetica', 'Arial', sans-serif !important;
 	font-size: 0.750rem !important;
 	background: transparent !important;
 	color: #2f2f2f !important;
@@ -107,7 +107,7 @@ div.ad-plea {
 /* Relative to posts. */
 inline .post.reply,
 .post.reply {
-	font-family: 'Source', Helvetica, Arial, sans-serif !important;
+	font-family: 'Source', 'Helvetica', 'Arial', sans-serif !important;
 	font-size: 14px !important;
 	background: #0d0d13 !important;
 	color: #839496 !important;
@@ -201,7 +201,7 @@ div.postInfo {
 /* Relative to file info, i.e. filename, file size, resolution, etc. */
 div.fileText > span.file-info,
 div.fileText > span.file-info > a {
-	font-family: 'Nimbus Sans L', Helvetica, Arial, sans-serif !important;
+	font-family: 'Nimbus Sans L', 'Helvetica', 'Arial', sans-serif !important;
 	font-size: 13px !important;
 	text-decoration: none !important;
 }
@@ -290,7 +290,7 @@ a.tab-main.tab-selected {
 	background: #09090d !important;
 	color: #839496 !important;
 	border-left: 0 !important;
-	font-family: PragmataPro, onospace !important;
+	font-family: 'PragmataPro', monospace !important;
 	font-size: 14px !important;
 }
 .prettyprint .com { color: #8c5760 !important; }					   /*  red	 */
